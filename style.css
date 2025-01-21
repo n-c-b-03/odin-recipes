@@ -1,0 +1,37 @@
+:root {
+    --borderpadding: 15px;
+    --background: rgb(255, 255, 255) ;
+}
+
+* {
+    text-align: center;
+    background-color: rgb(126, 235, 235);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.list-container {
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(116, 0, 0);
+    width: 300px;
+    display: inline-block;
+    padding-top: var(--borderpadding);
+    padding-bottom: var(--borderpadding);
+    background-color: var(--background);
+}
+
+ul {
+    display: inline-block;
+    text-align: center;
+    background-color: var(--background);
+}
+li,a {
+    text-align: left;
+    background-color: var(--background);
+}
+
+h1 {
+    font-size: 40px;
+    text-decoration: underline overline;
+   
+}
